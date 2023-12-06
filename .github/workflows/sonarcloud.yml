@@ -20,5 +20,5 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-              DSonar.organization=cakeisme
-              DSonar.projectkey=cakeisme_solution_simple
+              Dsonar.organization=cakeisme
+              Dsonar.projectkey=cakeisme_solution_simple
